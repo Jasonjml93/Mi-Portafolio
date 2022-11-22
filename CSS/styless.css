@@ -121,7 +121,7 @@
     
    }
    
-   .button::before {
+   /*.button::before {
     position: absolute;
     content: attr(data-tooltip);
     width: var(--tooltip-width);
@@ -144,7 +144,7 @@
     border-top-color: var(--tooltip-color);
     left: calc(50% - 10px);
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 10px);
-   }
+   }*/
    
    .button::after,.button::before {
     opacity: 0;
